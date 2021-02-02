@@ -1,11 +1,14 @@
 body,
 html {
-    background-color: yellow;
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
 }
 
 a,
+a:hover,
+a:active,
 a:visited {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 
