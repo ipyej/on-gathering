@@ -3,6 +3,14 @@ html {
     background-color: yellow;
 }
 
+a,
+a:link,
+a:hover, 
+a:active,
+a:visited {
+    color: black;
+}
+
 
 
 /* Mobile
