@@ -78,12 +78,6 @@ ol {
     padding: 1em 1em 0 1em;
 }
 
-#updated_on {
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 1em;
-}
-
 a:link,
 a:hover,
 a:active,
