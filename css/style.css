@@ -1,7 +1,87 @@
 body,
 html {
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(0, 169, 92);
     color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: normal;
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+
+#og_background {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 169, 92);
+    background-size: cover;
+    background-position: left;
+    background-image: url(https://i.dailymail.co.uk/1s/2020/12/27/06/37298334-9090179-image-a-11_1609050994861.jpg);
+    background-blend-mode: screen;
+    filter: blur(0.5px);
+    -webkit-animation: og_background 120s ease infinite;
+    -moz-animation: og_background 120s ease infinite;
+    -o-animation: og_background 120s ease infinite;
+    animation: og_background 120s ease infinite;
+}
+
+@-webkit-keyframes og_background {
+    0%{background-color:rgb(0, 169, 92);}
+    50%{background-color:rgb(0, 120, 191);}
+    100%{background-color:rgb(0, 169, 92);}
+}
+@-moz-keyframes og_background {
+    0%{background-color:rgb(0, 169, 92);}
+    50%{background-color:rgb(0, 120, 191);}
+    100%{background-color:rgb(0, 169, 92);}
+}
+@-o-keyframes og_background {
+    0%{background-color:rgb(0, 169, 92);}
+    50%{background-color:rgb(0, 120, 191);}
+    100%{background-color:rgb(0, 169, 92);}
+}
+@keyframes og_background {
+    0%{background-color:rgb(0, 169, 92);}
+    50%{background-color:rgb(0, 120, 191);}
+    100%{background-color:rgb(0, 169, 92);}
+}
+
+/*
+span.uc {
+    text-transform: uppercase;
+}
+*/
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+    font-size: 1em; 
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content_block {
+    padding: 1em 1em 0 1em;
+}
+
+#updated_on {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1em;
 }
 
 a:link,
