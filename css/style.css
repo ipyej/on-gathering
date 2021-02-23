@@ -20,7 +20,7 @@ html {
     background-position: left;
     background-image: url(https://i.dailymail.co.uk/1s/2020/12/27/06/37298334-9090179-image-a-11_1609050994861.jpg);
     background-blend-mode: screen;
-    filter: blur(0.5px);
+    /* filter: blur(0.5px); */
     -webkit-animation: og_background 120s ease infinite;
     -moz-animation: og_background 120s ease infinite;
     -o-animation: og_background 120s ease infinite;
