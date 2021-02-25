@@ -1,6 +1,6 @@
 body,
 html {
-    background-color: rgb(0, 169, 92);
+    background-color: rgb(255, 121, 0);
     color: rgb(0, 0, 0);
     font-size: 1.5em;
     font-weight: normal;
@@ -15,16 +15,16 @@ html {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: rgb(0, 169, 92);
+    /* background-color: rgb(0, 169, 92); */
     background-size: contain;
     background-position: left;
     background-image: url(https://i.dailymail.co.uk/1s/2020/12/27/06/37298334-9090179-image-a-11_1609050994861.jpg);
-    background-blend-mode: screen;
+    /* mix-blend-mode: exclusion; */
     /* filter: blur(0.5px); */
-    -webkit-animation: og_background 120s ease infinite;
+    /* -webkit-animation: og_background 120s ease infinite;
     -moz-animation: og_background 120s ease infinite;
     -o-animation: og_background 120s ease infinite;
-    animation: og_background 120s ease infinite;
+    animation: og_background 120s ease infinite; */
 }
 
 @-webkit-keyframes og_background {
@@ -83,6 +83,11 @@ a:hover,
 a:active,
 a:visited {
     color: rgb(0, 0, 0);
+}
+
+a:hover ~ #og_background {
+    background-color: rgb(255, 121, 0);
+    mix-blend-mode: exclusion;
 }
 
 /* Mobile
