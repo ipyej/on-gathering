@@ -10,16 +10,38 @@ html {
     padding: 0;
 }
 
+#p1_background {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 180, 240);
+    /* background-size: contain;
+    background-position: left;
+    background-image: url(); */
+}
+
+#p2_background {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 169, 92);
+    /* background-size: contain;
+    background-position: left;
+    background-image: url(); */
+}
+
 #og_background {
     width: 100vw;
     height: 100vh;
     margin: 0;
     padding: 0;
-    /* background-color: rgb(0, 169, 92); */
+    /* background-color: rgb(255, 121, 0); */
     background-size: contain;
     background-position: left;
     background-image: url(https://i.dailymail.co.uk/1s/2020/12/27/06/37298334-9090179-image-a-11_1609050994861.jpg);
-    /* mix-blend-mode: exclusion; */
+    /* background-blend-mode: color-dodge; */
     /* filter: blur(0.5px); */
     /* -webkit-animation: og_background 120s ease infinite;
     -moz-animation: og_background 120s ease infinite;
@@ -85,11 +107,6 @@ a:hover,
 a:active,
 a:visited {
     color: rgb(0, 0, 0);
-}
-
-a:hover ~ #og_background {
-    background-color: rgb(255, 121, 0);
-    mix-blend-mode: exclusion;
 }
 
 /* Mobile
