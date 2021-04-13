@@ -38,7 +38,8 @@ html {
     margin: 0;
     padding: 0;
     /* background-color: rgb(255, 121, 0); */
-    background-size: contain;
+    /* background-size: contain; */
+    background-repeat: repeat;
     background-position: left;
     background-image: url(https://media1.giphy.com/media/ziuFiWIIY1lmw/giphy.gif?cid=ecf05e471t9sr2rras490kx0z6wio8ocn0p44lj4adngfu5v&rid=giphy.gif&ct=g);
     /* background-blend-mode: color-dodge; */
