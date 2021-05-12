@@ -32,6 +32,18 @@ html {
     background-image: url(); */
 }
 
+#p2promo_background {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url('../img/PW_Invitation.gif');
+}
+
 #og_background {
     width: 100vw;
     height: 100vh;
@@ -91,6 +103,10 @@ p {
     font-weight: normal;
     padding: 0;
     margin: 0;
+}
+
+.whitetitle {
+    color: rgb(255, 255, 255);
 }
 
 ul,
